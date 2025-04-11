@@ -47,3 +47,10 @@
     <script src="gradebook.js"></script>
 </body>
 </html>
+console.log("Gradebook script loaded");
+
+function addStudentRow(studentName, assignment1, assignment2, assignment3, assignment4) {
+    console.log(`Adding student: ${studentName}`);
+}
+
+addStudentRow("John Doe", 90, 85, 88, 92);
